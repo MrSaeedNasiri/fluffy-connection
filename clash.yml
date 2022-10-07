@@ -40,8 +40,8 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇫🇷_FR_法国
       - 🇺🇸_US_美国_3
-      - 🚀 Second
-      - ♻️ Second
+      - 🚀 Two
+      - ♻️ Two
   - name: ♻️ One
     type: url-test
     url: http://www.gstatic.com/generate_204
