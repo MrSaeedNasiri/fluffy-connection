@@ -27,7 +27,7 @@ proxies:
   - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)","ws-opts":{"path":"/123","headers":{"host":"jparm.fineyoo.cf"}},"server":"104.21.78.44","port":"443","uuid":"bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6","alterId":"0","cipher":"auto","network":"ws","tls":true}
 
 proxy-groups:
-  - name: 🚀 节点选择
+  - name: 🚀
     type: select
     proxies:
       - ♻️
