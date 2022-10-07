@@ -27,10 +27,10 @@ proxies:
   - {"type":"vmess","name":"🇺🇸US美国(youtube阿伟科技)","ws-opts":{"path":"/123","headers":{"host":"jparm.fineyoo.cf"}},"server":"104.21.78.44","port":"443","uuid":"bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6","alterId":"0","cipher":"auto","network":"ws","tls":true}
 
 proxy-groups:
-  - name: 🚀
+  - name: 🚀 One
     type: select
     proxies:
-      - ♻️
+      - ♻️ One
       - DIRECT
       - 🇬🇧_GB_英国_1
       - 🇧🇬_BG_保加利亚
@@ -42,7 +42,7 @@ proxy-groups:
       - 🇺🇸_US_美国_3
       - 🚀 Second
       - ♻️ Second
-  - name: ♻️
+  - name: ♻️ One
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -57,10 +57,10 @@ proxy-groups:
       - 🇫🇷_FR_法国
       - 🇺🇸_US_美国_3
  
-  - name: 🚀 Second
+  - name: 🚀 Two
     type: select
     proxies:
-      - ♻️ Second
+      - ♻️ Two
       - DIRECT
       - mianfeifq|US_199.195.251.82_100715ee-274
       - 🇯🇵日本_1006096
@@ -74,7 +74,7 @@ proxy-groups:
       - 未知_1006022
       - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
       - 🇺🇸US美国(youtube阿伟科技)
-  - name: ♻️ Second
+  - name: ♻️ Two
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
