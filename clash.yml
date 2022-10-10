@@ -24,12 +24,9 @@ dns:
     - tls://one.one.one.one
     - tls://1dot1dot1dot1.cloudflare-dns.com
     - https://dns.google/dns-query
-
   fallback:
     - https://1.0.0.1/dns-query
     - https://8.8.4.4/dns-query
-    - 1.1.1.1
-    - 8.8.8.8
 
 proxies:
   - {"type":"trojan","name":"🇬🇧_GB_英国_1","server":"132.145.51.172","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
@@ -66,7 +63,6 @@ proxies:
   - {"type":"trojan","name":"github.com/freefq-日本2","server":"924hk.tfzhc.top","port":44393,"password":"0a8df927-324d-463c-a349-1a8144078683","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点29","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.asuka.buzz"}},"server":"www.digitalocean.com","port":"80","uuid":"645fc4e7-e3a3-4e82-8abd-2d71324894c4","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸v2rayfree.eu.org-美国CloudFlare公司CDN节点39","ws-opts":{"path":"/home","headers":{"host":"ca.0112233.xyz"}},"server":"ca.0112233.xyz","port":"8443","uuid":"c3000e9d-bee7-4fdb-b312-dd07030f325d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-# 
   - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_232_1","server":"jp2-5s4d-sjf9-xaf1-sl99.paolu.pics","port":22031,"password":"3715ea7f-2915-48df-af11-4063fff72cdd","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"🇺🇸US_73|71.21Mb","server":"spotted.bigkangaroo.net","port":443,"password":"ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"TG频道:@kxswa|日本_1","ws-opts":{"path":"/norio","headers":{"host":"194.156.231.23"}},"server":"194.156.231.23","port":"999","uuid":"9088612a-6681-4253-c5b7-6028c99d3051","alterId":"0","cipher":"auto","network":"ws"}
@@ -99,7 +95,6 @@ proxies:
   - {"type":"trojan","name":"Relay_🇩🇪DE-🇩🇪DE_102_1","server":"trojan-ctb-sg01.globalssh.xyz","port":443,"password":"123456","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_229_1","server":"musashino.freetrade.link","port":443,"password":"ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"TG频道:@kxswa|","ws-opts":{"path":"/aries","headers":{"host":"lux.justu.ml"}},"server":"cdn.bootloader.cf","port":"80","uuid":"74758f06-f4b9-4ef1-a86c-f0a0cc82109f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_235_1","server":"nice-jp01.tiktokcdn.buzz","port":443,"password":"BXE9notY","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"TG频道:@kxswa|美国_2","ws-opts":{"path":"/ray","headers":{"host":"usarm.ptuu.cf"}},"server":"usarm.ptuu.cf","port":"443","uuid":"cb7c9465-ca11-44c8-ab8f-3585631fa640","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"[10-08]-🇨🇦-加拿大-1208-cat1.sshocean.net","server":"cat1.sshocean.net","port":443,"password":"8b6daf15-8342-482d-b894-1239fd98ce7f","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Relay_🇵🇹PT-🇵🇹PT_382_1","server":"hl.jiashumao.net","port":45519,"password":"9d846d39-2f5e-3fae-8ad7-239cedc56048","udp":true,"skip-cert-verify":true}
@@ -107,7 +102,6 @@ proxies:
   - {"type":"trojan","name":"🇨🇦CA_05|110.82Mb","server":"cat1.sshocean.net","port":443,"password":"8b6daf15-8342-482d-b894-1239fd98ce7f","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"美国(油管:破解资源君2.0)","ws-opts":{"path":"/sshkit/2136177093/631ed45675ad7/","headers":{"host":"sg4-v2ray.sshkit.org"}},"server":"104.16.85.20","port":"80","uuid":"c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"🇯🇵JP_35|36.64Mb","server":"musashino.freetrade.link","port":443,"password":"ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇨🇦CA_462_1","server":"nice-ca01.tiktokcdn.buzz","port":443,"password":"ff37081f-9043-476a-a6ea-854297b06839","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"🇨🇦CA_06|25.12Mb","server":"1002tw.tfzhc.top","port":443,"password":"0a8df927-324d-463c-a349-1a8144078683","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"TG频道:@kxswa|日本_3","ws-opts":{"path":"/b472f/","headers":{"host":"linode.sharecentre.xyz"}},"server":"47.74.51.30","port":"443","uuid":"3fad3b4c-8691-42f2-a46d-9875cacaeeb2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"🇯🇵JP_31|36.79Mb","server":"nice-jp01.tiktokcdn.buzz","port":443,"password":"BXE9notY","udp":true,"skip-cert-verify":true}
@@ -194,7 +188,6 @@ proxies:
   - {"type":"vmess","name":"🇭🇰HK_205","server":"23.91.100.243","port":"30862","uuid":"3b0f44e4-dd11-429d-c80f-615b10595db9","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇭🇺HU_210","server":"185.225.69.134","port":"45081","uuid":"3c3bfd75-dc30-4e76-8940-47e1137e21f9","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇮🇹IT_215","server":"5.181.132.234","port":"31372","uuid":"c40b4d06-7684-4c09-d8d9-8de7186b293a","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Relay_🇯🇵JP-🇯🇵JP_250","ws-opts":{"path":"/chat","headers":{"host":"vjp3.0bad.com"}},"server":"vjp3.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"Relay_🇯🇵JP-🇯🇵JP_251","ws-opts":{"path":"/chat","headers":{"host":"vjp1.0bad.com"}},"server":"vjp1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"Relay_🇯🇵JP-🇯🇵JP_252_2","server":"m4.40010010.xyz","port":"37121","uuid":"575e4d92-1056-44c2-8cac-75ef1c859ad5","alterId":"0","cipher":"auto","network":"tcp","tls":true}
   - {"type":"vmess","name":"Relay_🇸🇬SG-🇸🇬SG_393","ws-opts":{"path":"/chat","headers":{"host":"vsg1.0bad.com"}},"server":"vsg1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -219,6 +212,33 @@ proxies:
   - {"type":"trojan","name":"美国(TG频道:@kxswa)_3","server":"la.p1.gay","port":23511,"password":"69a019dd-617b-449f-9af0-57762a476530","udp":true,"skip-cert-verify":true,"sni":"la.p1.gay"}
   - {"type":"vmess","name":"(TG频道:@kxswa)","ws-opts":{"path":"/4befdd8a6/","headers":{"host":"sgp.kapok.buzz"}},"server":"sgp.kapok.buzz","port":"443","uuid":"c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"🇷🇺_RU_俄罗斯联邦","server":"ru.p1.gay","port":24114,"password":"69a019dd-617b-449f-9af0-57762a476530","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_511","server":"116.fastea.top","port":53316,"password":"3f29ee90-8567-4671-8d99-9875874e472f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇷🇴RO-🇷🇴RO_400","server":"hk-1.tiktokcdn.sbs","port":12288,"password":"OsFEF0P0ia","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"欧洲(油管:破解资源君2.0)","ws-opts":{"path":"/path/152212033125","headers":{"host":"www.80449177.xyz"}},"server":"45.58.149.170","port":"443","uuid":"4242f9e0-6b7e-4257-9e93-7ad38015c46a","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇨🇦CA_462_1","server":"nice-ca01.tiktokcdn.buzz","port":443,"password":"ff37081f-9043-476a-a6ea-854297b06839","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_235_1","server":"nice-jp01.tiktokcdn.buzz","port":443,"password":"BXE9notY","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇯🇵JP-🇯🇵JP_250","server":"nice-jp01.tiktokcdn.buzz","port":443,"password":"BXE9notY","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇪🇪EE-🇪🇪EE_128","server":"hk-tj.superyuluo.asia","port":30002,"password":"7b30dbe2-5fd9-4f87-a733-facef379632b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"trojan","server":"51.81.82.15","port":443,"password":"c2b0a060-44b0-11ed-ad2e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"us-trojan.bonds.id"}
+  - {"type":"trojan","name":"Relay_🇩🇪DE-🇩🇪DE_127","server":"trojan-ctb-sg01.globalssh.xyz","port":443,"password":"123456","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇨🇦CA_509","server":"nice-ca01.tiktokcdn.buzz","port":443,"password":"ff37081f-9043-476a-a6ea-854297b06839","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"TG频道:@kxswa|日本","ws-opts":{"path":"/norio","headers":{"host":"194.156.231.23"}},"server":"194.156.231.23","port":"999","uuid":"9088612a-6681-4253-c5b7-6028c99d3051","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"Relay_🇩🇪DE-🇩🇪DE_81","server":"nice-de02.nicevpn.top","port":443,"password":"137032ae-1bdb-445d-85e0-6edd7d343afb","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇸🇬SG-🇸🇬SG_407","server":"hk2.plxs-u95s-h62a-xs1f.paolu.pics","port":22031,"password":"3715ea7f-2915-48df-af11-4063fff72cdd","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇸🇬SG-🇸🇬SG_410","server":"hk3.xjsn-595s-kkf9-knaf.paolu.pics","port":22031,"password":"f713776c-ef7c-46af-8994-4ca5404301a1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇷🇴RO-🇷🇴RO_401","server":"hk-1.tiktokcdn.sbs","port":56563,"password":"R8HpRZUAfK","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇵🇹PT-🇵🇹PT_356","server":"hl.jiashumao.net","port":45519,"password":"9d846d39-2f5e-3fae-8ad7-239cedc56048","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_506","server":"spotted.bigkangaroo.net","port":443,"password":"ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"美国(TG频道:@kxswa)","ws-opts":{"path":"/b472f/","headers":{"host":"linode.sharecentre.xyz"}},"server":"cf.naixii.top","port":"443","uuid":"3fad3b4c-8691-42f2-a46d-9875cacaeeb2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Relay_🇸🇬SG-🇸🇬SG_408","server":"hk3.xjsn-595s-kkf9-knaf.paolu.pics","port":22031,"password":"1904200f-3823-40a1-a1ba-5a5fe0dd01f6","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸youtube-bai-piao-wang-zhe-usa.98848.xyz_trojan_gRPC","server":"youtube-bai-piao-wang-zhe-usa.98848.xyz","port":443,"password":"d1478689-439c-4590-b7ce-36e786a02dc3","udp":true,"skip-cert-verify":true,"sni":"youtube-bai-piao-wang-zhe-usa.98848.xyz"}
+  - {"type":"trojan","name":"🇺🇸美国+027","server":"youtube-bai-piao-wang-zhe-usa.98848.xyz","port":443,"password":"d1478689-439c-4590-b7ce-36e786a02dc3","udp":true,"skip-cert-verify":true,"sni":"youtube-bai-piao-wang-zhe-usa.98848.xyz"}
+  - {"type":"trojan","name":"🇺🇸美国027","server":"youtube-bai-piao-wang-zhe-usa.98848.xyz","port":443,"password":"d1478689-439c-4590-b7ce-36e786a02dc3","udp":true,"skip-cert-verify":true,"sni":"youtube-bai-piao-wang-zhe-usa.98848.xyz"}
+  - {"type":"trojan","name":"Relay_🇵🇹PT-🇵🇹PT_382","server":"hl.jiashumao.net","port":45519,"password":"9d846d39-2f5e-3fae-8ad7-239cedc56048","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🏁ZZ-🏁ZZ_1150","server":"hk-tj.superyuluo.top","port":1032,"password":"7b30dbe2-5fd9-4f87-a733-facef379632b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_510","server":"youtube-bai-piao-wang-zhe-usa.98848.xyz","port":443,"password":"d1478689-439c-4590-b7ce-36e786a02dc3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_512","server":"nice-us02.nicevpn.top","port":443,"password":"97e19992-cde3-4314-814d-5529a4e5c874","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇨🇦CA-🇨🇦CA_56","server":"1002hk1326.tfzhc.top","port":443,"password":"1a17faee-e35d-48e8-9708-e0a7b7ef04a1","udp":true,"skip-cert-verify":true}
 
 proxy-groups:
   - name: 🔆 LIST
@@ -226,7 +246,213 @@ proxy-groups:
     proxies:
       - ♻️ AUTO
       - 🔰 Select
-      
+      - 🇬🇧_GB_英国_1
+      - 🇧🇬_BG_保加利亚
+      - 🇺🇸_US_美国_1
+      - 🇬🇧_GB_英国_2
+      - 🇮🇱_IL_以色列
+      - 🇺🇸_US_美国_2
+      - 🇫🇷_FR_法国
+      - 🇺🇸_US_美国_3
+      - mianfeifq|US_199.195.251.82_100715ee-274
+      - 🇯🇵日本_1006096
+      - mianfeifq|US_199.195.251.82_1006b116-308
+      - 🇸🇬:美国-vmess-ca.0112233.xyz:8443-被墙-中转:199.87.210.186-解锁新加坡地区NF非自制剧
+      - 🇺🇸美国020
+      - 🇺🇸_US_美国_6_1@17
+      - 未知_1006023
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点39_1
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点39_2
+      - 未知_1006022
+      - 🇺🇸github.com/freefq-美国CloudFlare公司CDN节点23
+      - 🇺🇸US美国(youtube阿伟科技)
+      - 🇺🇸TG频道:@kxswa|美国
+      - default_name
+      - github.com/freefq-俄罗斯莫斯科14
+      - 🇺🇸github.com/freefq-美国13
+      - 🇺🇸US美国(youtube阿伟科技)_18
+      - github.com/freefq-美国CloudFlare公司CDN节点31
+      - github.com/freefq-美国CloudFlare公司CDN节点17
+      - 🇺🇸US214
+      - 🇺🇸美国_1006056
+      - github.com/freefq-日本2
+      - github.com/freefq-美国CloudFlare公司CDN节点29
+      - 🇺🇸v2rayfree.eu.org-美国CloudFlare公司CDN节点39
+      - Relay_🇯🇵JP-🇯🇵JP_232_1
+      - 🇺🇸US_73|71.21Mb
+      - TG频道:@kxswa|日本_1
+      - 亚洲(油管:破解资源君2.0)_1
+      - TG频道:@kxswa|俄罗斯联邦
+      - Relay_🇩🇪DE-🇩🇪DE_56_1
+      - Relay_🇺🇸US-🇺🇸US_932
+      - 🇨🇦CA_04|16.16Mb
+      - 🇵🇹PT_40
+      - 🇺🇸US_71|79.42Mb
+      - Relay_🇨🇦CA-🇨🇦CA_17_1
+      - Relay_🇺🇸US-🇺🇸US_463_1
+      - TG频道:@kxswa|美国_1
+      - 🇯🇵JP_32|36.44Mb
+      - TG频道:@kxswa|日本_2
+      - Relay_🇨🇦CA-🇨🇦CA_16_1
+      - '[10-08]-🇸🇬-新加坡-960-217.197.161.138'
+      - Relay_🇷🇴RO-🇷🇴RO_385_1
+      - 欧洲(油管:破解资源君2.0)_1
+      - 🇨🇦CA_07|0.00Mb
+      - Relay_🇺🇸US-🇺🇸US_458_1
+      - 亚洲(油管:破解资源君2.0)_2
+      - 欧洲(油管:破解资源君2.0)_2
+      - Relay_🇯🇵JP-🇯🇵JP_230_1
+      - '[10-08]-🇸🇬-新加坡-958-217.197.161.136'
+      - 香港(油管:破解资源君2.0)
+      - Relay_-🇺🇸US_03_1
+      - 🇩🇪DE_13|52.67Mb
+      - Relay_🇷🇴RO-🇷🇴RO_384_1
+      - Relay_🇩🇪DE-🇩🇪DE_102_1
+      - Relay_🇯🇵JP-🇯🇵JP_229_1
+      - TG频道:@kxswa|
+      - Relay_🇯🇵JP-🇯🇵JP_235_1
+      - TG频道:@kxswa|美国_2
+      - '[10-08]-🇨🇦-加拿大-1208-cat1.sshocean.net'
+      - Relay_🇵🇹PT-🇵🇹PT_382_1
+      - Relay_🇯🇵JP-🇯🇵JP_252_1
+      - 🇨🇦CA_05|110.82Mb
+      - 美国(油管:破解资源君2.0)
+      - 🇯🇵JP_35|36.64Mb
+      - Relay_🇺🇸US-🇨🇦CA_462_1
+      - 🇨🇦CA_06|25.12Mb
+      - TG频道:@kxswa|日本_3
+      - 🇯🇵JP_31|36.79Mb
+      - TG频道:@kxswa+|新加坡
+      - 🇷🇴RO_41|18.58Mb
+      - 日本(油管:破解资源君2.0)
+      - TG频道:@kxswa|法国
+      - 欧洲(油管:破解资源君2.0)_3
+      - Relay_🇺🇸US-🇺🇸US_469_1
+      - 🇷🇴RO_42|19.70Mb
+      - 🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_11
+      - Relay_🇨🇦CA-🇨🇦CA_16_2
+      - Relay_🇨🇦CA-🇨🇦CA_17_2
+      - Relay_🇨🇳CN-🇭🇰HK_48
+      - Relay_🇨🇳CN-🇧🇭BH_49
+      - Relay_🇨🇳CN-🇧🇭BH_50
+      - Relay_🇨🇿CZ-🇺🇦UA_52
+      - Relay_🇨🇿CZ-🇨🇿CZ_53
+      - Relay_🇩🇪DE-🇩🇪DE_56_2
+      - Relay_🇩🇪DE-🇩🇪DE_102_2
+      - 🇫🇷FR_112
+      - 🇬🇧GB_174
+      - Relay_🇬🇧GB-🇬🇧GB_199
+      - 🇭🇰HK_200
+      - Relay_🇭🇰HK-🇭🇰HK_206
+      - 🇭🇰HK_207
+      - 🇭🇰HK_208
+      - 🇭🇰HK_209
+      - Relay_🇯🇵JP-🇯🇵JP_228
+      - Relay_🇯🇵JP-🇯🇵JP_229_2
+      - Relay_🇯🇵JP-🇯🇵JP_230_2
+      - Relay_🇯🇵JP-🇯🇵JP_231
+      - Relay_🇯🇵JP-🇯🇵JP_232_2
+      - Relay_🇯🇵JP-🇯🇵JP_233
+      - Relay_🇯🇵JP-🇯🇵JP_234
+      - Relay_🇯🇵JP-🇯🇵JP_235_2
+      - Relay_🇯🇵JP-🇯🇵JP_236
+      - Relay_🇯🇵JP-🇯🇵JP_237
+      - Relay_🇯🇵JP-🇯🇵JP_238
+      - Relay_🇯🇵JP-🇯🇵JP_239
+      - Relay_🇯🇵JP-🇯🇵JP_253
+      - Relay_🇯🇵JP-🇯🇵JP_254
+      - 🇳🇱NL_372
+      - 🇳🇴NO_373
+      - 🇳🇴NO_374
+      - Relay_🇵🇹PT-🇵🇹PT_382_2
+      - Relay_🇷🇴RO-🇷🇴RO_384_2
+      - Relay_🇷🇴RO-🇷🇴RO_385_2
+      - 🇷🇺RU_389
+      - 🇺🇦UA_396
+      - 🇺🇸US_460
+      - 🇺🇸US_461
+      - Relay_🇺🇸US-🇨🇦CA_462_2
+      - Relay_🇺🇸US-🇺🇸US_463_2
+      - 🇺🇸US_464
+      - Relay_🇺🇸US-🇺🇸US_465
+      - 🇺🇸US_466
+      - 🇺🇸US_467
+      - 🇺🇸US_468
+      - Relay_🇺🇸US-🇺🇸US_469_2
+      - 🇺🇸US_470
+      - Relay_🇺🇸US-🇺🇸US_976
+      - Relay_🇺🇸US-🇺🇸US_977
+      - Relay_🇺🇸US-🇺🇸US_978
+      - Relay_🇺🇸US-🇺🇸US_979
+      - Relay_🇺🇸US-🇺🇸US_980
+      - Relay_🇺🇸US-🇺🇸US_981
+      - Relay_🇺🇸US-🇺🇸US_982
+      - Relay_🇺🇸US-🇺🇸US_983
+      - Relay_🏁ZZ-🇹🇼TW_995
+      - _02
+      - Relay_-🇺🇸US_03_2
+      - _04
+      - _05
+      - _06
+      - Relay_🇦🇺AU-🇦🇺AU_10
+      - 🇨🇦CA_14
+      - 🇨🇦CA_15
+      - Relay_🇨🇦CA-🇨🇦CA_46
+      - 🇨🇳CN_47
+      - Relay_🇬🇧GB-🇬🇧GB_198
+      - 🇭🇰HK_204
+      - 🇭🇰HK_205
+      - 🇭🇺HU_210
+      - 🇮🇹IT_215
+      - Relay_🇯🇵JP-🇯🇵JP_250
+      - Relay_🇯🇵JP-🇯🇵JP_251
+      - Relay_🇯🇵JP-🇯🇵JP_252_2
+      - Relay_🇸🇬SG-🇸🇬SG_393
+      - 🇸🇬SG_394
+      - Relay_🇺🇸US-🇺🇸US_458_2
+      - 🇺🇸US_459
+      - 🇺🇸US_966
+      - Relay_🇺🇸US-🇺🇸US_967
+      - 🇺🇸US_968
+      - 🇺🇸US_969
+      - 🇺🇸US_970
+      - Relay_🇺🇸US-🇺🇸US_971
+      - Relay_🇺🇸US-🇺🇸US_972
+      - Relay_🇺🇸US-🇺🇸US_973
+      - 🇺🇸US_974
+      - Relay_🇺🇸US-🇺🇸US_975
+      - 🏁ZZ_1076
+      - 俄罗斯联邦(TG频道:@kxswa)
+      - 美国(TG频道:@kxswa)_1
+      - 美国(TG频道:@kxswa)_2
+      - 美国(TG频道:@kxswa)_3
+      - (TG频道:@kxswa)
+      - 🇷🇺_RU_俄罗斯联邦
+      - Relay_🇺🇸US-🇺🇸US_511
+      - Relay_🇷🇴RO-🇷🇴RO_400
+      - 欧洲(油管:破解资源君2.0)
+      - Relay_🇪🇪EE-🇪🇪EE_128
+      - trojan
+      - Relay_🇩🇪DE-🇩🇪DE_127
+      - Relay_🇺🇸US-🇨🇦CA_509
+      - TG频道:@kxswa|日本
+      - Relay_🇩🇪DE-🇩🇪DE_81
+      - Relay_🇸🇬SG-🇸🇬SG_407
+      - Relay_🇸🇬SG-🇸🇬SG_410
+      - Relay_🇷🇴RO-🇷🇴RO_401
+      - Relay_🇵🇹PT-🇵🇹PT_356
+      - Relay_🇺🇸US-🇺🇸US_506
+      - 美国(TG频道:@kxswa)
+      - Relay_🇸🇬SG-🇸🇬SG_408
+      - 🇺🇸youtube-bai-piao-wang-zhe-usa.98848.xyz_trojan_gRPC
+      - 🇺🇸美国+027
+      - 🇺🇸美国027
+      - Relay_🇵🇹PT-🇵🇹PT_382
+      - Relay_🏁ZZ-🏁ZZ_1150
+      - Relay_🇺🇸US-🇺🇸US_510
+      - Relay_🇺🇸US-🇺🇸US_512
+      - Relay_🇨🇦CA-🇨🇦CA_56
   - name: 🔰 Select
     type: select
     proxies:
@@ -255,10 +481,8 @@ proxy-groups:
       - github.com/freefq-俄罗斯莫斯科14
       - 🇺🇸github.com/freefq-美国13
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)
       - github.com/freefq-美国CloudFlare公司CDN节点31
       - github.com/freefq-美国CloudFlare公司CDN节点17
-      - 未知_1006022
       - 🇺🇸US214
       - 🇺🇸美国_1006056
       - github.com/freefq-日本2
@@ -415,10 +639,33 @@ proxy-groups:
       - 美国(TG频道:@kxswa)_3
       - (TG频道:@kxswa)
       - 🇷🇺_RU_俄罗斯联邦
-
+      - Relay_🇺🇸US-🇺🇸US_511
+      - Relay_🇷🇴RO-🇷🇴RO_400
+      - 欧洲(油管:破解资源君2.0)
+      - Relay_🇪🇪EE-🇪🇪EE_128
+      - trojan
+      - Relay_🇩🇪DE-🇩🇪DE_127
+      - Relay_🇺🇸US-🇨🇦CA_509
+      - TG频道:@kxswa|日本
+      - Relay_🇩🇪DE-🇩🇪DE_81
+      - Relay_🇸🇬SG-🇸🇬SG_407
+      - Relay_🇸🇬SG-🇸🇬SG_410
+      - Relay_🇷🇴RO-🇷🇴RO_401
+      - Relay_🇵🇹PT-🇵🇹PT_356
+      - Relay_🇺🇸US-🇺🇸US_506
+      - 美国(TG频道:@kxswa)
+      - Relay_🇸🇬SG-🇸🇬SG_408
+      - 🇺🇸youtube-bai-piao-wang-zhe-usa.98848.xyz_trojan_gRPC
+      - 🇺🇸美国+027
+      - 🇺🇸美国027
+      - Relay_🇵🇹PT-🇵🇹PT_382
+      - Relay_🏁ZZ-🏁ZZ_1150
+      - Relay_🇺🇸US-🇺🇸US_510
+      - Relay_🇺🇸US-🇺🇸US_512
+      - Relay_🇨🇦CA-🇨🇦CA_56
   - name: ♻️ AUTO
     type: url-test
-    url: https://www.gstatic.com/generate_204
+    url: https://www.google.com/humans.txt
     interval: 300
     tolerance: 500
     proxies:
@@ -447,10 +694,8 @@ proxy-groups:
       - github.com/freefq-俄罗斯莫斯科14
       - 🇺🇸github.com/freefq-美国13
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)
       - github.com/freefq-美国CloudFlare公司CDN节点31
       - github.com/freefq-美国CloudFlare公司CDN节点17
-      - 未知_1006022
       - 🇺🇸US214
       - 🇺🇸美国_1006056
       - github.com/freefq-日本2
@@ -607,7 +852,31 @@ proxy-groups:
       - 美国(TG频道:@kxswa)_3
       - (TG频道:@kxswa)
       - 🇷🇺_RU_俄罗斯联邦
-      
+      - Relay_🇺🇸US-🇺🇸US_511
+      - Relay_🇷🇴RO-🇷🇴RO_400
+      - 欧洲(油管:破解资源君2.0)
+      - Relay_🇪🇪EE-🇪🇪EE_128
+      - trojan
+      - Relay_🇩🇪DE-🇩🇪DE_127
+      - Relay_🇺🇸US-🇨🇦CA_509
+      - TG频道:@kxswa|日本
+      - Relay_🇩🇪DE-🇩🇪DE_81
+      - Relay_🇸🇬SG-🇸🇬SG_407
+      - Relay_🇸🇬SG-🇸🇬SG_410
+      - Relay_🇷🇴RO-🇷🇴RO_401
+      - Relay_🇵🇹PT-🇵🇹PT_356
+      - Relay_🇺🇸US-🇺🇸US_506
+      - 美国(TG频道:@kxswa)
+      - Relay_🇸🇬SG-🇸🇬SG_408
+      - 🇺🇸youtube-bai-piao-wang-zhe-usa.98848.xyz_trojan_gRPC
+      - 🇺🇸美国+027
+      - 🇺🇸美国027
+      - Relay_🇵🇹PT-🇵🇹PT_382
+      - Relay_🏁ZZ-🏁ZZ_1150
+      - Relay_🇺🇸US-🇺🇸US_510
+      - Relay_🇺🇸US-🇺🇸US_512
+      - Relay_🇨🇦CA-🇨🇦CA_56
+
   - name: "fallback-auto"
     type: fallback
     url: https://www.google.com/humans.txt
@@ -640,10 +909,8 @@ proxy-groups:
       - github.com/freefq-俄罗斯莫斯科14
       - 🇺🇸github.com/freefq-美国13
       - 🇺🇸US美国(youtube阿伟科技)_18
-      - 🇺🇸US美国(youtube阿伟科技)
       - github.com/freefq-美国CloudFlare公司CDN节点31
       - github.com/freefq-美国CloudFlare公司CDN节点17
-      - 未知_1006022
       - 🇺🇸US214
       - 🇺🇸美国_1006056
       - github.com/freefq-日本2
@@ -800,6 +1067,30 @@ proxy-groups:
       - 美国(TG频道:@kxswa)_3
       - (TG频道:@kxswa)
       - 🇷🇺_RU_俄罗斯联邦
+      - Relay_🇺🇸US-🇺🇸US_511
+      - Relay_🇷🇴RO-🇷🇴RO_400
+      - 欧洲(油管:破解资源君2.0)
+      - Relay_🇪🇪EE-🇪🇪EE_128
+      - trojan
+      - Relay_🇩🇪DE-🇩🇪DE_127
+      - Relay_🇺🇸US-🇨🇦CA_509
+      - TG频道:@kxswa|日本
+      - Relay_🇩🇪DE-🇩🇪DE_81
+      - Relay_🇸🇬SG-🇸🇬SG_407
+      - Relay_🇸🇬SG-🇸🇬SG_410
+      - Relay_🇷🇴RO-🇷🇴RO_401
+      - Relay_🇵🇹PT-🇵🇹PT_356
+      - Relay_🇺🇸US-🇺🇸US_506
+      - 美国(TG频道:@kxswa)
+      - Relay_🇸🇬SG-🇸🇬SG_408
+      - 🇺🇸youtube-bai-piao-wang-zhe-usa.98848.xyz_trojan_gRPC
+      - 🇺🇸美国+027
+      - 🇺🇸美国027
+      - Relay_🇵🇹PT-🇵🇹PT_382
+      - Relay_🏁ZZ-🏁ZZ_1150
+      - Relay_🇺🇸US-🇺🇸US_510
+      - Relay_🇺🇸US-🇺🇸US_512
+      - Relay_🇨🇦CA-🇨🇦CA_56
 
 rules:
   - DOMAIN-SUFFIX,ad.com,REJECT
